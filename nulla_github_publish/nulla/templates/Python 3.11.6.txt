@@ -1,0 +1,23 @@
+Things:
+
+
+
+
+Tsoxer = creative director/tester/compiler
+
+ChatGPT 5 = programmer/troubleshooter/image generated
+
+
+Whisper = microphone detection
+
+TheBloke/OpenHermes-2.5-Mistral-7B-GGUF = the gguf to be loaded, brain
+
+llama.cpp = gguf loader
+
+XTTS-v2 = tts
+
+
+voice sampled/cloned = salutations.wav by shadoWisp -- https://freesound.org/s/260931/ -- License: Attribution 3.0
+
+
+

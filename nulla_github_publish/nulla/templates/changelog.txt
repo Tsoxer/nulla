@@ -1,0 +1,116 @@
+Nulla was built on Sox v2 and v3, another prototype I was working on. The following are the prototype's changelogs. Nulla's changelog is at the bottom.
+
+
+
+--------------------------------------
+
+v1 = created, local pc only, NOT PORTABLE - (8/6/2025)
+
+v2 = portable (cpu only for lm studio + xtts v2) - (8/10/2025)
+
+v2.1 = lm studio and xtts v2 both capable of running on gpu cuda (cpu only mode still available) - (8/16/2025)
+
+v2.2 = added idle lines which trigger if user is not typing after 30-60 seconds - (8/17/2025)
+
+v2.3 = made her 99% more human (probably) and fixed idle lines so it doesn't appear when she's busy reading her previous prompt - (8/18/2025)
+
+v2.3.1 = put lm studio back on cpu and condensed her personality prompt by nearly half therefore fastening boot time + edit her idle lines to sound more human - (8/18/2025)
+
+
+v2.4 - (8/22/2025)
+
+separated idle lines from sox_chat.py into sox_idle.py (kept behaviors the same) (from here onwards, any new features will be in separate files)
+
+added sox_idle_short.py which connects to sox_idle.py
+
+sox_idle_short.py produces shorter idle lines WHICH IGNORES KEYBOARD STROKES, with a 25% chance of happening once every 15-30 seconds (not while xtts running)
+
+added sox_timecue.py which FOR THE FIRST MESSAGE (whether its a standard reply, idle or idle short, will output with a time related message)
+
+changed regular idles from sox_idle.py from 30-60 seconds (still 100% of the time) to 90-120 seconds. (making the overall chance of a regular idle line appearing 30% every 90-120 seconds due to the short idles dominating the code)
+ 
+made it so she stops reading emojis (which makes weird noises via xtts v2)
+
+
+v2.4.1 - (8/23/2025)
+
+added the ability to open google chrome, discord, steam, calculator, and notepad (5 total apps) using "open" commands. Type "help open" for the exact commands. Sox will say an lm studio generated line for opening an app, or trying to open it when its already opened
+
+edit the idle short messages a little, humanizing her and making her better take into account the previous message + edit some timers for idle short
+
+edit the regular idles to make her sound more human
+
+changed up her personality prompts, shorten it as well 
+
+made her secretly a professional office lady while keeping her base personality in tact
+
+
+v2.4.2 - (9/19/2025)
+
+optimize personality prompt order
+
+added more emotion control + rebellious writing request refusal
+
+added previous line emotional awareness
+
+changed some short idle interval timings also reduced chance from 50% down to 40% + changed it so idle timer for short idle happens after a normal idle is done
+
+added local machine time at the end of every message
+
+v2.5.0 - (9/20/2025)
+
+CUT THE PERSONALITY PROMPT IN HALF+ FOR OPTIMZATION (rip), much faster now
+
+made her lines shorter, more human like
+
+Switched xtts v2 to cpu (+enhanced for 5600x cpu), and lm studio to gpu
+
+upgraded openhermes from q4 to q6 (better brain)
+
+
+v2.5.1 - (10/3/2025)
+
+switched xtts v2 back to gpu (lm studio stays on gpu too)
+
+slapped her down to q3 version, everything is fast and smooth now, although her memory is that of a goldfish
+
+v2.5.2 - (10/3/2025)
+
+added short term memory awareness, it creates a txt file and records every message the user inputs (with timestamps, although she cant read the timestamps), a line of message decays every 3 minutes as long as Sox is running, each time the user inputs a message Sox (openhermes) will read over the entire txt file and respond accordingly
+
+limited her chat history tokens, therefore she will only go over 1500 characters and not the entire chat each time (the short term memory awareness helps back this up)
+
+v2.5.3 - (10/28/2025)
+
+fixed bug preventing her from reading her personality prompt
+
+
+--------------------------------------
+
+
+v3.0 -  complete rewrite of Sox v2.x.x (rtx 5070 ti 16gb), base line creation, cmd only, lm studio running in background, no reading emoji voice readings allowed, LM Studio (OpenHermes-2.5-Mistral-7B-GGUF q8_0) → XTTS v2 (cloned) → chunked temp WAVs → play → auto-delete - 10/24/2025
+
+v3.1 - added new intro sound, added chat interface + portrait interface - 8 portraits (randomized gif) + optimization (its faster now) - 10/24/25
+
+v3.1.1 - added 10 more new portraits - 10/24/25
+
+v3.2 - added Whisper (by OpenAI), microphone detection to text, wired Whisper to Sox's chat interface with a button at the bottom right corner, when button activated microphone is detected and will auto enter whatever is said + locked gguf model to bat file properly + fixed 1 repeated message in console - 10/26/25
+
+v3.2.1 - added 12 more new portraits + bug fix, insured that lmstudio is properly killed in the background upon closing cmd - 10/27/25
+
+
+--------------------------------------
+
+
+
+Nulla v0.0.1- built on sox v2.5.3 above^^^, minor code edits, personality and portrait different for obvious reasons (Nulla is friendly and wholesome, unlike Sox) - 10/28/2025
+
+Nulla v0.0.2 - proper interface scaling + locked chat interface size + edit short idle timers to be less spammy (more fitting for her personality) + added game list (no idles allowed while playing game, messages when opening a game or exiting or losing a game) + added snake game - 10/29/2025
+
+Nulla v0.0.3 - added runner game (endless 2d jump platformer) + fixed snake game bug (prior, no voice upon launching) - 10/30/2025
+
+Nulla v0.0.4 - merged nulla v0.0.3 (built on sox v2.5.3) and sox v3.2.1 + switch from torch files for rtx 3070 to rtdx 5070 ti + switch from lm studio to llama.cpp + compatibility fixes + disabled portraits from sox v3, still png only for now + REMOVED idle, idle_short, mem, open, and timecue (might re-add more cleanly later with mood based code) + centered portrait/chat window + changed all code names to be "nulla" instead of "sox" + edited personality prompt/fixes - 11/1/2025
+
+Nulla v0.0.5 - made sure that its directory flexible/portable (tested by moving to different directory and running) + made sure ffmpeg for Whisper is inside of nulla_source - 11/1/2025
+
+Nulla v0.0.6 - added Rock Paper Scissors game with clickable icons and sound effects - contains small brain so Nulla's choices aren't completely randomized, spamming one same move will result in a defeat - 11/5/2025

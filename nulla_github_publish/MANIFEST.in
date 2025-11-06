@@ -1,0 +1,3 @@
+recursive-include nulla/templates *.*
+include README.md
+include LICENSE
