@@ -1,7 +1,7 @@
 # Nulla v0.0.6
 
 <p align="center">
-  <img src="assets/Nulla.png" alt="Nulla banner" width="960">
+  <img src="nulla_github_publish/nulla/templates/assets/Nulla.png" alt="Nulla banner" width="960">
 </p>
 
 *A local Windows bootstrapper for a talkative AI companion — sets up Whisper (ASR), XTTS v2 (TTS), llama.cpp with OpenHermes GGUF, and ships sample mini-games.*
