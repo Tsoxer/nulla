@@ -14,6 +14,8 @@
 
 ---
 
+**PyPI:** https://pypi.org/project/nulla/
+
 ### Status
 **Alpha — functional CLI.** `nulla setup` creates isolated venvs, fetches llama.cpp Windows binaries and the OpenHermes-2.5-Mistral-7B GGUF from **official upstreams**, and wires in Whisper (CPU) + XTTS v2 (CUDA/CPU).  
 This package **does not redistribute** third-party models/binaries; they are downloaded during setup under their respective licenses.
