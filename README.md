@@ -14,6 +14,8 @@
 
 ---
 
+**YouTube Demo on Hugging Face Space:** https://huggingface.co/spaces/Tsoxer/nulla
+
 **PyPI:** https://pypi.org/project/nulla/
 
 ### Status
