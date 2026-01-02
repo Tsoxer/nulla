@@ -49,7 +49,8 @@ This package **does not redistribute** third-party models/binaries; they are dow
 - **OpenAI Whisper** — MIT License. Source: openai/whisper.  
 - **llama.cpp** — MIT-licensed C/C++ inference project.  
 - **XTTS-v2 (Coqui)** — licensed under the Coqui Public Model License (non-commercial). You must review and comply with their terms.  
-- **OpenHermes-2.5-Mistral-7B-GGUF Q8_0 (TheBloke)** — GGUF conversions hosted on Hugging Face; follow the original/model repo licenses.  
+- **OpenHermes-2.5-Mistral-7B-GGUF Q8_0 (TheBloke)** — GGUF conversions hosted on Hugging Face; follow the original/model repo licenses.
+Note: Q8_0 is a very large, high-quality variant and requires significant VRAM.
 
 ## Third-Party Notices (bundled)
 
