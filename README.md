@@ -42,7 +42,7 @@ This package **does not redistribute** third-party models/binaries; they are dow
 
 ## Credits & Tools
 - **Author/Maintainer/Creative Director:** Tsoxer — <tsoxercontact@gmail.com>  
-- **Code scaffolding & helper scripts:** co-authored with **ChatGPT-5**  
+- **Code scaffolding & helper scripts:** co-authored with **ChatGPT**  
 - **Image assets:** generated with **ChatGPT-5** (OpenAI)
 
 ## Third-Party Notices (not bundled)
