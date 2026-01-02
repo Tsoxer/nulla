@@ -43,7 +43,7 @@ This package **does not redistribute** third-party models/binaries; they are dow
 ## Credits & Tools
 - **Author/Maintainer/Creative Director:** Tsoxer — <tsoxercontact@gmail.com>  
 - **Code scaffolding & helper scripts:** co-authored with **ChatGPT**  
-- **Image assets:** generated with **ChatGPT-5** (OpenAI)
+- **Image assets:** generated with **ChatGPT** (OpenAI)
 
 ## Third-Party Notices (not bundled)
 - **OpenAI Whisper** — MIT License. Source: openai/whisper.  
