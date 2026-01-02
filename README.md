@@ -59,7 +59,7 @@ This package **does not redistribute** third-party models/binaries; they are dow
 
 - **Other AI-generated audio** (button presses, UI/game SFX, music, etc.) — generated with **TangoFlux**. These clips were created using a model whose checkpoints are licensed for **non-commercial research use only**, subject to the Stability AI Community License (Stable Audio Open) and WavCaps’ academic-use terms. They are included here only for non-commercial, research/educational use.
   
-This package is © 2025 Tsoxer (MIT). See `LICENSE`.
+This package is © 2025-2026 Tsoxer (MIT). See `LICENSE`.
 
 
 ## Quick Start (Windows, PowerShell)
