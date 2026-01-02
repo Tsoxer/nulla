@@ -33,7 +33,7 @@ This package **does not redistribute** third-party models/binaries; they are dow
 ### Requirements
 - Windows 11
 - **Python 3.11.6 exactly**
-- NVIDIA CUDA (optional; CPU fallbacks exist but are slower)
+- NVIDIA CUDA (optional; CPU fallbacks exist but are slower, untested)
 
 **Python requirement:** This project targets **Python 3.11.6 exactly**.
 
