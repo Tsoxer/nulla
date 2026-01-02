@@ -19,7 +19,7 @@
 **PyPI:** https://pypi.org/project/nulla/
 
 ### Status
-**Alpha — functional CLI.** `nulla setup` creates isolated venvs, fetches llama.cpp Windows binaries and the OpenHermes-2.5-Mistral-7B GGUF from **official upstreams**, and wires in Whisper (CPU) + XTTS v2 (CUDA/CPU).  
+**Alpha — functional CLI.** `nulla setup` creates isolated venvs, fetches llama.cpp Windows binaries and the OpenHermes-2.5-Mistral-7B-GGUF Q8_0 from **official upstreams**, and wires in Whisper (CPU) + XTTS v2 (CUDA/CPU).  
 This package **does not redistribute** third-party models/binaries; they are downloaded during setup under their respective licenses.
 
 ### Tested Environment
@@ -49,7 +49,7 @@ This package **does not redistribute** third-party models/binaries; they are dow
 - **OpenAI Whisper** — MIT License. Source: openai/whisper.  
 - **llama.cpp** — MIT-licensed C/C++ inference project.  
 - **XTTS-v2 (Coqui)** — licensed under the Coqui Public Model License (non-commercial). You must review and comply with their terms.  
-- **OpenHermes-2.5-Mistral-7B-GGUF (TheBloke)** — GGUF conversions hosted on Hugging Face; follow the original/model repo licenses.  
+- **OpenHermes-2.5-Mistral-7B-GGUF Q8_0 (TheBloke)** — GGUF conversions hosted on Hugging Face; follow the original/model repo licenses.  
 
 ## Third-Party Notices (bundled)
 
@@ -79,7 +79,7 @@ This package is © 2025-2026 Tsoxer (MIT). See `LICENSE`.
 #   • Installs the LATEST Nulla from PyPI
 #   • Runs `nulla setup` to fetch official upstream components:
 #       - llama.cpp Windows binaries (from ggml-org releases)
-#       - OpenHermes-2.5-Mistral-7B GGUF (from TheBloke on Hugging Face)
+#       - OpenHermes-2.5-Mistral-7B-GGUF Q8_0 (from TheBloke on Hugging Face)
 #       - Whisper (CPU) & XTTS v2 (TTS) inside their isolated venvs
 #   • Nothing is redistributed by Nulla; you’ll accept each upstream license on first use.
 #
