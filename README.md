@@ -1,4 +1,4 @@
-# Nulla v0.0.8
+# Nulla v0.0.9
 
 <p align="center">
   <img src="nulla_github_publish/nulla/templates/assets/Nulla.png" alt="Nulla banner" width="960">
