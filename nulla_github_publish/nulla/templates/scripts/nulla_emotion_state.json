@@ -1,0 +1,15 @@
+{
+  "emotion": "Neutral",
+  "previous": "Neutral",
+  "updated_at": 1770726900.6545079,
+  "ttl_sec": 0.0,
+  "poke_count": 0,
+  "poke_last_at": 0.0,
+  "poke_pending": false,
+  "poke_reason": "",
+  "poke_triggered_at": 0.0,
+  "poke_pending_until": 0.0,
+  "status_text": "Neutral",
+  "image_file": "Nulla_neutral.png",
+  "status_color": "#6B7280"
+}
