@@ -23,9 +23,9 @@
 This package **does not redistribute** third-party models/binaries; they are downloaded during setup under their respective licenses.
 
 ### Tested Environment
-- **GPU:** RTX 5070 Ti 16 GB  
-- **CPU:** Ryzen 5 5600X  
-- **RAM:** 32 GB  
+- **GPU:** RTX 5060 Ti 16 GB / RTX 5070 Ti 16 GB *(50-series NVIDIA GPU with 16 GB VRAM currently required)*
+- **CPU:** Ryzen 5 5600X / Ryzen 7 5800XT  
+- **RAM:** 32 GB *(likely works with 16 GB, but not yet tested)*
 - **Storage:** ~20 GB free recommended  
 - **OS:** Windows 11  
 - **Python:** **3.11.6 (required)**
