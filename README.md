@@ -35,7 +35,6 @@ help emoflush
 
 `help memflush` — Permanently erases Nulla's saved long-term memories.  
 `help emoflush` — Resets Nulla's saved emotional state.
-```
 
 ---
 
