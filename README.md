@@ -16,6 +16,7 @@ Type these commands directly into Nulla's chat box.
 
 ```text
 help game      = Displays the list of available built-in games.
+
 play snake     = Launches Snake.
 play runner    = Launches Runner.
 play rps       = Launches Rock Paper Scissors against Nulla.
