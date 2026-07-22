@@ -15,16 +15,26 @@
 Type these commands directly into Nulla's chat box.
 
 ```text
-help game      = Displays the list of available built-in games.
+help game
+play snake
+play runner
+play rps
+play ttt
+play bounce
+help memflush
+help emoflush
+```
 
-play snake     = Launches Snake. Eat food, grow longer, and avoid crashing.
-play runner    = Launches Runner. Jump over obstacles and survive as long as possible.
-play rps       = Launches Rock Paper Scissors. Play against Nulla.
-play ttt       = Launches Tic-Tac-Toe. Play against Nulla.
-play bounce    = Launches Bounce. Keep the ball bouncing with a movable paddle.
+`help game` — Displays the list of available built-in games.
 
-help memflush  = Permanently erases Nulla's saved long-term memories.
-help emoflush  = Resets Nulla's saved emotional state.
+`play snake` — Launches Snake. Eat food, grow longer, and avoid crashing.  
+`play runner` — Launches Runner. Jump over obstacles and survive as long as possible.  
+`play rps` — Launches Rock Paper Scissors. Play against Nulla.  
+`play ttt` — Launches Tic-Tac-Toe. Play against Nulla.  
+`play bounce` — Launches Bounce. Keep the ball bouncing with a movable paddle.
+
+`help memflush` — Permanently erases Nulla's saved long-term memories.  
+`help emoflush` — Resets Nulla's saved emotional state.
 ```
 
 ---
