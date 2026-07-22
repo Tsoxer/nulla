@@ -10,12 +10,14 @@
 
 *A local Windows bootstrapper for a talkative female elf AI companion — sets up Whisper (ASR), XTTS v2 (TTS), llama.cpp with OpenHermes GGUF, and ships sample mini-games.*
 
----
+## Nulla — In-App Commands
 
+Type these commands directly into Nulla's chat box.
+
+```text
 # =============================================================================
 # Nulla — In-App Commands
 # =============================================================================
-# Type these commands directly into Nulla's chat box.
 #
 # help game
 #   Displays the list of available built-in games.
@@ -44,6 +46,7 @@
 #
 # Memory and emotion resets require confirmation before any data is erased.
 # =============================================================================
+```
 
 ---
 
