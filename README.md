@@ -12,6 +12,41 @@
 
 ---
 
+# =============================================================================
+# Nulla — In-App Commands
+# =============================================================================
+# Type these commands directly into Nulla's chat box.
+#
+# help game
+#   Displays the list of available built-in games.
+#
+# play snake
+#   Launches Snake. Collect food and avoid crashing into the walls or yourself.
+#
+# play runner
+#   Launches Runner. Dodge obstacles and survive for as long as possible.
+#
+# play rps
+#   Launches Rock Paper Scissors against Nulla.
+#
+# play ttt
+#   Launches Tic-Tac-Toe against Nulla.
+#
+# play bounce
+#   Launches Bounce, an arcade-style ball-bouncing game.
+#
+# help memflush
+#   Opens a confirmation prompt to permanently erase Nulla's saved long-term
+#   memories.
+#
+# help emoflush
+#   Opens a confirmation prompt to reset Nulla's saved emotional state.
+#
+# Memory and emotion resets require confirmation before any data is erased.
+# =============================================================================
+
+---
+
 **YouTube Demo on Hugging Face Space:** https://huggingface.co/spaces/Tsoxer/nulla
 
 **PyPI:** https://pypi.org/project/nulla/
