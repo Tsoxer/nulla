@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://youtu.be/Zw-FMh60PLs">
     <img
-      src="Nulla%20-%20Alpha%20v0.0.9%20-%20Install%20Guide%20_FULL.png"
+      src="./Nulla%20-%20Alpha%20v0.0.9%20-%20Install%20Guide_thumbnail_FULL.png"
       alt="Nulla v0.0.9 Installation Guide"
       width="820"
     >
