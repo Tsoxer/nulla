@@ -4,17 +4,21 @@
   <img src="nulla_github_publish/nulla/templates/assets/Nulla.png" alt="Nulla banner" width="960">
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <strong>📦 Installation Guide — Nulla v0.0.9</strong><br><br>
-      Step-by-step video installation guide<br><br>
-      <a href="https://youtu.be/Zw-FMh60PLs">
-        ▶ Watch the Installation Guide
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://youtu.be/Zw-FMh60PLs">
+    <img
+      src="Nulla%20-%20Alpha%20v0.0.9%20-%20Install%20Guide%20_FULL.png"
+      alt="Nulla v0.0.9 Installation Guide"
+      width="820"
+    >
+  </a>
+</p>
+
+<p align="center">
+  <strong>📦 Installation Guide — Nulla v0.0.9</strong><br>
+  Step-by-step video installation guide<br>
+  <a href="https://youtu.be/Zw-FMh60PLs">▶ Watch the Installation Guide</a>
+</p>
 
 ---
 
@@ -154,3 +158,4 @@ py -3.11 -m venv $Venv
 #   • If Whisper/XTTS download caches are slow or interrupted, re-run step 5.
 #   • GPU users: keep your NVIDIA drivers up to date for CUDA builds.
 # =============================================================================
+```
