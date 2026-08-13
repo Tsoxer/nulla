@@ -4,10 +4,17 @@
   <img src="nulla_github_publish/nulla/templates/assets/Nulla.png" alt="Nulla banner" width="960">
 </p>
 
-<p align="center">
-  <strong>Installation Guide:</strong><br>
-  https://youtu.be/Zw-FMh60PLs
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <strong>📦 Installation Guide — Nulla v0.0.9</strong><br><br>
+      Step-by-step video installation guide<br><br>
+      <a href="https://youtu.be/Zw-FMh60PLs">
+        ▶ Watch the Installation Guide
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
